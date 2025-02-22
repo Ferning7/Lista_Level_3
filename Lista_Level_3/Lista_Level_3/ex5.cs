@@ -4,11 +4,11 @@ using System;
 namespace Lista_Level_3
 {
 	
-	public class ex3
+	public class ex5
 	{
 		public static void Main()
 		{
-			Random rand = new Random();
+			
 			
 			Console.WriteLine("Insira o tamanho do array: ");
 			int arraySize = int.Parse(Console.ReadLine());
@@ -16,16 +16,18 @@ namespace Lista_Level_3
 			int[] array = new int[arraySize];
 			
 			
-			Console.WriteLine("Total de números negativos no array: ");
+			
+			Console.WriteLine("\nInsira {0} elementos no array: ", arraySize);
 			
 			for (int i = 0; i < arraySize; i++) {
-				array[i] = rand.Next(-10, 10);
-				
-				if (array[i] < 0) {
-					Console.Write("{0} ", array[i]);
-				}
+				Console.Write("{0}º elemento: ", i);
+				array[i] = int.Parse(Console.ReadLine());
 			}
 			
+			Console.WriteLine("\nElementos no array: ");
+			for (int i = 0; i < arraySize; i++) {
+				Console.Write("{0} ", array[i]);
+			}
 			Console.ReadKey(true);
 		}
 	}
