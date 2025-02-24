@@ -8,6 +8,8 @@ namespace Lista_Level_3
 	{
 		public static void Main()
 		{
+			/*9. Escreva um programa em C# para imprimir todos os elementos únicos
+			em um array.*/
 			
 			int[] array = { 1, 2, 3, 2, 4, 5, 6, 3, 3, 7, 8, 8 };
 

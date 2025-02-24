@@ -8,6 +8,9 @@ namespace Lista_Level_3
 	{
 		public static void Main()
 		{
+			/*3. Escreva o programa C # para contar o número total de elementos
+			negativos no array.*/
+			
 			Random rand = new Random();
 			
 			Console.WriteLine("Insira o tamanho do array: ");

@@ -8,6 +8,9 @@ namespace Lista_Level_3
 	{
 		public static void Main()
 		{
+			/*6. Escreva um programa em C# para encontrar a soma de todos os
+			elementos do array.*/
+			
 			Random rand = new Random();
 			
 			

@@ -10,3 +10,9 @@ C:\Users\Matheus\Documents\SharpDevelop Projects\Lista_Level_3\Lista_Level_3\bin
 C:\Users\Matheus\Documents\SharpDevelop Projects\Lista_Level_3\Lista_Level_3\bin\Debug\Lista_Level_3.exe
 C:\Users\Matheus\Documents\SharpDevelop Projects\Lista_Level_3\Lista_Level_3\bin\Debug\Lista_Level_3.pdb
 C:\Users\Matheus\Documents\SharpDevelop Projects\Lista_Level_3\Lista_Level_3\obj\Debug\Lista_Level_3.pdb
+C:\Users\Aluno_Tarde\Documents\SharpDevelop Projects\Lista_Level3\Lista_Level_3\Lista_Level_3\bin\Debug\Lista_Level_3.exe.config
+C:\Users\Aluno_Tarde\Documents\SharpDevelop Projects\Lista_Level3\Lista_Level_3\Lista_Level_3\bin\Debug\Lista_Level_3.exe
+C:\Users\Aluno_Tarde\Documents\SharpDevelop Projects\Lista_Level3\Lista_Level_3\Lista_Level_3\bin\Debug\Lista_Level_3.pdb
+C:\Users\Aluno_Tarde\Documents\SharpDevelop Projects\Lista_Level3\Lista_Level_3\Lista_Level_3\obj\Debug\Lista_Level_3.csprojResolveAssemblyReference.cache
+C:\Users\Aluno_Tarde\Documents\SharpDevelop Projects\Lista_Level3\Lista_Level_3\Lista_Level_3\obj\Debug\Lista_Level_3.exe
+C:\Users\Aluno_Tarde\Documents\SharpDevelop Projects\Lista_Level3\Lista_Level_3\Lista_Level_3\obj\Debug\Lista_Level_3.pdb

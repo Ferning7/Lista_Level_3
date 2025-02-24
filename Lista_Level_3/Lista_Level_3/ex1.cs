@@ -7,6 +7,8 @@ namespace Lista_Level_3
 	public class ex1
 	{
 		public static void Main (){
+			/*1. Escreva um programa em C# para armazenar elementos em um array e
+			imprimi-lo.*/
 			
 			int[] arrays = new int[5];
 			
@@ -18,8 +20,9 @@ namespace Lista_Level_3
 			}
 			
 			Console.WriteLine();
+			Console.WriteLine("Elementos inseridos no array: ");
 			for (int i = 0; i < arrays.Length; i++) {
-				Console.Write("Elementos: {0} ", arrays[i]);
+				Console.Write("\n{0}° elemento: {1}", i, arrays[i]);
 			}
 			Console.ReadKey(true);
 		}

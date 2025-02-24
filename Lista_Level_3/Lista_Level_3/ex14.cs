@@ -8,9 +8,6 @@ namespace Lista_Level_3
 	{
 		public static void Main()
 		{
-			/*10. Escreva um programa em C# para mesclar dois arrays de mesmo
-			tamanho colocando os números do array em ordem crescente.*/
-			
 			Random rand = new Random();
 			
 			int i = 0, j = 0, k = 0;

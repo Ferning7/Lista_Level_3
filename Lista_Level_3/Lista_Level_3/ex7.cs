@@ -8,6 +8,8 @@ namespace Lista_Level_3
 	{
 		public static void Main()
 		{
+			/*7. Escreva um programa em C# para copiar os elementos de um array em
+			outro array.*/
 			
 			int i = 0;
 			

@@ -8,6 +8,10 @@ namespace Lista_Level_3
 	{
 		public static void Main()
 		{
+			/*8. Escreva um programa em C# para contar um número total de elementos
+			duplicados em um array.*/
+			
+			
 			Random rand = new Random();
 			
 			int i = 0;

@@ -10,7 +10,7 @@
     <AssemblyName>Lista_Level_3</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <StartupObject>Lista_Level_3.ex9</StartupObject>
+    <StartupObject>Lista_Level_3.ex4</StartupObject>
     <NoWin32Manifest>False</NoWin32Manifest>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
@@ -52,7 +52,10 @@
   <ItemGroup>
     <Compile Include="ex10.cs" />
     <Compile Include="ex1.cs" />
+    <Compile Include="ex11.cs" />
+    <Compile Include="ex12.cs" />
     <Compile Include="ex13.cs" />
+    <Compile Include="ex14.cs" />
     <Compile Include="ex2.cs" />
     <Compile Include="ex3.cs" />
     <Compile Include="ex4.cs" />
