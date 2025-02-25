@@ -8,6 +8,9 @@ namespace Lista_Level_3
 	{
 		public static void Main()
 		{
+			/*12. Escreva um programa em C# para encontrar o elemento máximo e
+			mínimo em um array.*/
+			
 			Random rand = new Random();
 			
 			Console.WriteLine("Defina o tamanho do array: ");

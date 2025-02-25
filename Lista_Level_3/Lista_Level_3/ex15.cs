@@ -1,13 +1,17 @@
-﻿using System;
+﻿
+using System;
 
-namespace Lista_Level_3 {
+namespace Lista_Level_3
+{
 	
-	class ex14
+	using System;
+
+	class Program
 	{
 		public static void Main()
 		{
 			// Array de exemplo
-			int[] arr = { 5, 3, 8, 4, 2 , 9, 1};
+			int[] arr = { 5, 3, 8, 4, 2 };
 
 			// Exibe o array original
 			Console.WriteLine("Array original:");
@@ -17,13 +21,13 @@ namespace Lista_Level_3 {
 			}
 			Console.WriteLine();
 
-			// Ordenação do array em ordem crescente usando o Bubble Sort
+			// Ordenação do array em ordem decrescente usando o Bubble Sort
 			int temp;
 			for (int i = 0; i < arr.Length - 1; i++)
 			{
 				for (int j = 0; j < arr.Length - i - 1; j++)
 				{
-					if (arr[j] > arr[j + 1]) // Se o elemento atual for maior que o próximo
+					if (arr[j] < arr[j + 1]) // Modificado para ordem decrescente
 					{
 						// Troca os elementos
 						temp = arr[j];
@@ -34,12 +38,12 @@ namespace Lista_Level_3 {
 			}
 
 			// Exibe o array ordenado
-			Console.WriteLine("Array ordenado em ordem crescente:");
+			Console.WriteLine("Array ordenado em ordem decrescente:");
 			foreach (int item in arr)
 			{
 				Console.Write(item + " ");
 			}
-			Console.ReadKey();
 		}
 	}
+
 }

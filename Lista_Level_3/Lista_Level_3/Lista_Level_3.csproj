@@ -10,7 +10,7 @@
     <AssemblyName>Lista_Level_3</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <StartupObject>Lista_Level_3.ex4</StartupObject>
+    <StartupObject>Lista_Level_3.ex8</StartupObject>
     <NoWin32Manifest>False</NoWin32Manifest>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
@@ -56,6 +56,9 @@
     <Compile Include="ex12.cs" />
     <Compile Include="ex13.cs" />
     <Compile Include="ex14.cs" />
+    <Compile Include="ex15.cs" />
+    <Compile Include="ex16.cs" />
+    <Compile Include="ex17.cs" />
     <Compile Include="ex2.cs" />
     <Compile Include="ex3.cs" />
     <Compile Include="ex4.cs" />
@@ -67,7 +70,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
+    <None Include="Properties\app.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

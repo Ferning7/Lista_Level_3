@@ -1,7 +1,6 @@
-﻿
-using System;
+﻿using System;
 
-namespace Lista_Level_3
+namespace ex5
 {
 	
 	public class ex5
@@ -10,25 +9,41 @@ namespace Lista_Level_3
 		{
 			/*5. Escreva o programa C # para inserir um elemento no array.*/
 			
-			Console.WriteLine("Insira o tamanho do array: ");
-			int arraySize = int.Parse(Console.ReadLine());
+			Console.WriteLine("Insira o tamanho do array:");
+			int size = int.Parse(Console.ReadLine());
 			
-			int[] array = new int[arraySize];
+			int[] vetor = new int[size];
 			
-			
-			
-			Console.WriteLine("\nInsira {0} elementos no array: ", arraySize);
-			
-			for (int i = 0; i < arraySize; i++) {
-				Console.Write("{0}º elemento: ", i);
-				array[i] = int.Parse(Console.ReadLine());
+			Console.WriteLine("Insira os números para armazenar no array");
+			for (int i = 0; i < size; i++)
+			{
+				Console.Write("{0}° elemento: ", i);
+				vetor[i] = int.Parse(Console.ReadLine());
 			}
 			
-			Console.WriteLine("\nElementos no array: ");
-			for (int i = 0; i < arraySize; i++) {
-				Console.Write("{0} ", array[i]);
+			Console.WriteLine("\nArray inserido: ");
+			for (int i = 0; i < size; i++) {
+				Console.Write("{0} ", vetor[i]);
 			}
-			Console.ReadKey(true);
+			
+			Console.Write("\n\nDigite o elemento a ser inserido: ");
+			int elemento = int.Parse(Console.ReadLine());
+			
+			Console.Write("\nDigite a posição onde deseja inserir: ");
+			int posicao = int.Parse(Console.ReadLine());
+			
+			
+			if (posicao >= 0 && posicao < vetor.Length) {
+				vetor[posicao] = elemento;
+				
+			} else{
+				Console.WriteLine("Posição inválida.");
+			}
+			
+			for (int i = 0; i < vetor.Length; i++) {
+				Console.Write("{0} ", vetor[i]);
+			}
+			Console.ReadKey();
 		}
 	}
 }
