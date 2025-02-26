@@ -1,47 +1,62 @@
-﻿
-using System;
+﻿using System;
 
-namespace Lista_Level_3
-{
-	
-	public class ex8
+namespace Lista_Level_3{
+	class ex8
 	{
 		public static void Main()
 		{
 			/*8. Escreva um programa em C# para contar um número total de elementos
 			duplicados em um array.*/
 			
-			
 			Random rand = new Random();
+			int[] array = new int[20];
+
 			
-			int i = 0;
-			Console.WriteLine("Defina o tamanho do array: ");
-			int arraySize = int.Parse(Console.ReadLine());
-			
-			
-			int[] array = new int[arraySize];
-			
-			int count = 0;
-			
-			for (i = 0; i < arraySize; i++) {
-				array[i] = rand.Next(1, 9);
+			for (int i = 0; i < array.Length; i++)
+			{
+				array[i] = rand.Next(1, 11);
 			}
+
+			Console.WriteLine("Array gerado:");
+			for (int i = 0; i < array.Length; i++)
+			{
+				if (i < array.Length - 1)
+				{
+					Console.Write(array[i] + ", ");
+				}
+				else
+				{
+					Console.Write(array[i]);
+				}
+			}
+
+			int totalDuplicates = 0;
+
 			
-			for ( i = 0; i < arraySize; i++) {
-				for (int j = 0; j < arraySize; j++) {
-					
-					
-					if (array[i] == array[j]) {
+			for (int i = 0; i < array.Length; i++)
+			{
+				int count = 0;
+				for (int j = 0; j < array.Length; j++)
+				{
+					if (array[i] == array[j])
+					{
 						count++;
-						break;
 					}
 				}
-				
-				Console.Write("{0} ", array[i]);
+				if (count > 1)
+				{
+					totalDuplicates += count - 1;
+					for (int k = 0; k < array.Length; k++)
+					{
+						if (array[k] == array[i])
+						{
+							array[k] = -1;
+						}
+					}
+				}
 			}
-			
-			Console.WriteLine("\nA soma de todos elementos repetidos: {0}", count);
-			Console.ReadKey(true);
+
+			Console.WriteLine("\nTotal de elementos duplicados: " + totalDuplicates);
 		}
 	}
 }

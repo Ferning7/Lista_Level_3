@@ -10,7 +10,7 @@
     <AssemblyName>Lista_Level_3</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <StartupObject>Lista_Level_3.ex8</StartupObject>
+    <StartupObject>Lista_Level_3.ex14</StartupObject>
     <NoWin32Manifest>False</NoWin32Manifest>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
